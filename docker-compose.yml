@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  shriekfx.cms.services:
+    image: shriekfx.cms.services
+    build:
+      context: .
+      dockerfile: src/ShriekFx.CMS.Services/Dockerfile
+
+  shriekfx.cms.admin:
+    image: shriekfx.cms.admin
+    build:
+      context: .
+      dockerfile: src/ShriekFx.CMS.Admin/Dockerfile
+
+
+  shriekfx.cms.web:
+    image: shriekfx.cms.web
+    build:
+      context: .
+      dockerfile: src/ShriekFx.CMS.Web/Dockerfile
+

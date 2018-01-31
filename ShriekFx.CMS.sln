@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShriekFx.CMS.Services", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShriekFx.CMS.Contracts", "src\ShriekFx.CMS.Contracts\ShriekFx.CMS.Contracts.csproj", "{ECF654B5-35C8-49EC-9D0B-A4E26B4F11FF}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CF457E2D-BB0E-4C2B-A255-827CDC159079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{ECF654B5-35C8-49EC-9D0B-A4E26B4F11FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF654B5-35C8-49EC-9D0B-A4E26B4F11FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF654B5-35C8-49EC-9D0B-A4E26B4F11FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF457E2D-BB0E-4C2B-A255-827CDC159079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF457E2D-BB0E-4C2B-A255-827CDC159079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF457E2D-BB0E-4C2B-A255-827CDC159079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF457E2D-BB0E-4C2B-A255-827CDC159079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
