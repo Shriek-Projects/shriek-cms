@@ -6,4 +6,4 @@ services:
     volumes:
       - .:/src
     working_dir: /src
-    command: /bin/bash -c "dotnet restore ./ShriekFx.CMS.sln && dotnet publish ./ShriekFx.CMS.sln -c Release -o ./obj/Docker/publish"
+    command: /bin/bash -c "dotnet restore ./Shriek.CMS.sln && dotnet publish ./Shriek.CMS.sln -c Release -o ./obj/Docker/publish"
