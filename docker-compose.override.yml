@@ -1,20 +1,20 @@
-version: '3'
+version: '3.4'
 
 services:
-  Shriek.CMS.services:
+  shriek.cms.ui.web:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
 
-  Shriek.CMS.admin:
+  shriek.cms.application.services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
 
 
-  Shriek.CMS.web:
+  shriek.cms.ui.admin:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:

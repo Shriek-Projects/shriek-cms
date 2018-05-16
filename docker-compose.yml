@@ -1,22 +1,20 @@
-version: '3'
+version: '3.4'
 
 services:
-  Shriek.CMS.services:
-    image: Shriek.CMS.services
+  shriek.cms.ui.web:
+    image: ${DOCKER_REGISTRY}shriekcmsuiweb
     build:
       context: .
-      dockerfile: src/Shriek.CMS.Services/Dockerfile
+      dockerfile: src/Shriek.CMS.UI.Web/Dockerfile
 
-  Shriek.CMS.admin:
-    image: Shriek.CMS.admin
+  shriek.cms.application.services:
+    image: ${DOCKER_REGISTRY}shriekcmsapplicationservices
     build:
       context: .
-      dockerfile: src/Shriek.CMS.Admin/Dockerfile
-
-
-  Shriek.CMS.web:
-    image: Shriek.CMS.web
+      dockerfile: src/Shriek.CMS.Application.Services/Dockerfile
+  shriek.cms.ui.admin:
+    image: ${DOCKER_REGISTRY}shriekcmsuiadmin
     build:
       context: .
-      dockerfile: src/Shriek.CMS.Web/Dockerfile
+      dockerfile: src/Shriek.CMS.UI.Admin/Dockerfile
 
