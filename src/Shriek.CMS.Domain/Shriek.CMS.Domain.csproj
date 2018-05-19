@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shriek" Version="1.0.0-preview-10051" />
+    <PackageReference Include="Shriek" Version="1.0.0-preview-10052" />
   </ItemGroup>
-
 </Project>
