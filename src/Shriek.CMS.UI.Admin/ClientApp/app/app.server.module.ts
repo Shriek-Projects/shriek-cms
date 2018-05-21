@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
-import { ServerModule } from '@angular/platform-server';
-import { AppModuleShared } from './app.shared.module';
-import { AppComponent } from './components/app/app.component';
+import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
+import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { AppModule } from './app.module';
+
+import { AppComponent } from './app.component';
 
 @NgModule({
-    bootstrap: [ AppComponent ],
     imports: [
+        AppModule,
         ServerModule,
-        AppModuleShared
-    ]
+        ModuleMapLoaderModule,
+        ServerTransferStateModule,
+        NoopAnimationsModule
+    ],
+    bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppServerModule { }

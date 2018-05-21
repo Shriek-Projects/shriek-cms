@@ -1,0 +1,22 @@
+.sigin {
+  &-conainer {
+    min-height: 100%;
+    background: #eceeef url('/assets/images/background/login.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  &-main {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+.redirect {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #00AAAA;
+}
+
+.display-block {
+  display: block;
+}
