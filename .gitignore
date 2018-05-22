@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 
 **/Properties/launchSettings.json
+/src/Shriek.CMS.UI.Admin/ClientApp/dist-server
