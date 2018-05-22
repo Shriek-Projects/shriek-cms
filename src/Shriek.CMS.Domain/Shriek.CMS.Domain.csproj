@@ -5,6 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shriek" Version="1.0.0-preview-10052" />
+    <PackageReference Include="Shriek" Version="1.0.0-preview-10053" />
   </ItemGroup>
 </Project>
